@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="EN">
+	<head>
+		<meta charset="utf-8">
+		<title>Sign Up!</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="img_column">
+			<div class="banner">
+				<img src="images/emeraldNEW.png" alt="An outline of an emerald." height="50px">
+				<h1 class="name">Aw yeah!</h1>
+			</div>
+			<span>Logo from <a href="https://www.clker.com/clipart-black-and-white-gem.html" rel="external noopener" target="_blank">clker.com</a></span>
+		</div>
+		<form>
+			<div class="description">
+				<div class="description_box">
+					<p>This is filler text! I will put something here later!</p>
+					<p>Give me <em>something</em> to do.</p>
+				</div>
+			</div>
+			<div class="fields">
+				<p>Let's do this!</p>
+				<div class="inputs">
+					<div class="first_name">
+						<label for="first_name">FIRST NAME</label>
+						<input type="text" name="first_name" id="first_name" pattern="^\p{L}$">
+					</div>
+					<div class="last_name">
+						<label for="last_name">LAST NAME</label>
+						<input type="text" name="last_name" id="last_name" pattern="^\p{L}$">
+					</div>
+					<div class="email">
+						<label for="email">EMAIL</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div class="phone">
+						<label for="phone">PHONE NUMBER</label>
+						<input type="tel" name="phone" id="phone">
+					</div>
+					<div class="password">
+						<label for="password">PASSWORD</label>
+						<input type="password" name="password" id="password" pattern="[\S]{8,}">
+					</div>
+					<div class="confirm">
+						<label for="confirm">CONFIRM PASSWORD</label>
+						<input type="password" name="confirm" id="confirm" pattern="[\S]{8,}">
+					</div>
+				</div>
+			</div>
+			<div class="submission">
+				<button class="create_account">Create Account</button>
+				<p class="log_in">Already have an account? <a class="log_in" href="">Log in</a></p>
+			</div>
+		</form>
+	</body>
+</html>
